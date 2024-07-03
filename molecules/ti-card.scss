@@ -1,0 +1,16 @@
+.ti-card {
+    @extend .card;
+    @extend .shadow-sm;
+    @extend .mb-3;
+}
+
+.ti-card__body{
+    @extend .card-body;
+}
+.ti-card--light {
+    @extend .bg-light;
+}
+
+.ti-card--auto-size{
+    @extend .h-100;
+}

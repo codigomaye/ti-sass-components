@@ -1,0 +1,18 @@
+.ti-button{
+    @extend .btn;
+    @extend .text-white;
+    @extend .fw-medium;
+  }
+  
+  .ti-button--success{
+    @extend .btn-success;
+  }
+
+  .ti-button--big{
+    @extend .btn-lg;
+  }
+  
+  .ti-button__icon{
+    @extend .d-inline-block;
+    @extend .me-2;
+  }
